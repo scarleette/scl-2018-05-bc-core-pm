@@ -1,17 +1,33 @@
 body {
-    background: rgb(198, 193, 193);
+    background: gray;
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
 
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
    
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 30px;
 }
+#retorna-texto-cifrado {
+        position: relative;
+        width: 300px;
+        height: 200px;
+    }
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    }
+
