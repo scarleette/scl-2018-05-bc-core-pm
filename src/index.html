@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <img src="">
   <div>
-      <h1>CIFRADO CESAR</h1><br>
-      <H2>Envia mensajes en codigo</H2>
-      <h3></h3>
+    <h1>CIFRADO CESAR</h1><br>
+    <h2>Envia mensajes en codigo</h2>
   </div>
   <div>
-      <p>Con esta aplicacion podras enviar y recibir mensajes en codigos,
-        haciendo mas entretenida la comunicacion entre tu y tus amigos.
-        <br>
-        Para esto debes ecoger una de las opciones que se te presentan a
-        continuacion</p>  
-</div>
-  <div>
-    <form method="get" action="file:///C:/Users/Scarlett/Desktop/laboratoria/proyect/scl-2018-05-bc-core-pm/src/index2.html?">
-       <input type="submit" value="cifrar un Mensaje" />
-    </form>
+    <p>Con esta aplicacion podras enviar y recibir mensajes en codigos, haciendo mas entretenida la comunicacion entre tu y
+      tus amigos.<br>.
+     Para esto debes ecoger una de las opciones que se te presentan a continuacion
+    </p>
   </div>
   <br>
   <div>
-      <img src="https://cdn.pixabay.com/photo/2017/10/03/11/13/mustache-2812059_960_720.png" width="120px" height="120px">
+    <span><strong>ingresa un numero<strong></span>
+    <input type="number" id="recorrido" >
+  </div>
+  <br><br>
+    <div>
+      <textarea name="string" id='string'rows="10" cols="40">Escribe aqui tu mensaje</textarea>
     </div>
-  <div>
-    <br>
-      <form method="get" action="file:///C:/Users/Scarlett/Desktop/laboratoria/proyect/scl-2018-05-bc-core-pm/src/index3.html">
-      <input type="submit" value="descifrar un Mensaje" />
-    </form>
-</div>
-  <br>
-   <div>
-      <img src="https://cdn.pixabay.com/photo/2018/04/16/10/13/translate-3324171_960_720.jpg"width="120px" height="120px">
+      <br>
+          <button id ='cifrar' onclick="encode()" >cifrar</button>
+          <button id='decifrar' onclick="decode()">descifrar</button>
+     <br><br>
+     <input id ='retorna-texto-cifrado'type="text" value=''>
    </div>
-  <div id="root"></div>
-
+</div>
+<div id="root"></div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
